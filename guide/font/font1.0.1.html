@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>开发规范 | Kora</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <script language="javascript" type="text/javascript" src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="/js/CanvasBubble.js"></script>
+    <script>var _hmt = _hmt || [];
+			(function() {
+			  var hm = document.createElement("script");
+			  hm.src = "https://hm.baidu.com/hm.js?72c14dfe42bcde18b69411639c9306e3";
+			  var s = document.getElementsByTagName("script")[0]; 
+			  s.parentNode.insertBefore(hm, s);
+			})();</script>
+    <meta name="description" content="路遙知馬力，日久見人心">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/assets/css/0.styles.24550345.css" as="style"><link rel="preload" href="/assets/js/app.d186b46e.js" as="script"><link rel="preload" href="/assets/js/8.3dafff39.js" as="script"><link rel="preload" href="/assets/js/1.01fca4c6.js" as="script"><link rel="preload" href="/assets/js/42.ea26f3e3.js" as="script"><link rel="prefetch" href="/assets/js/10.1e7e3bbb.js"><link rel="prefetch" href="/assets/js/11.3f62d17d.js"><link rel="prefetch" href="/assets/js/12.f7c86641.js"><link rel="prefetch" href="/assets/js/13.79b43582.js"><link rel="prefetch" href="/assets/js/14.27d3e9d6.js"><link rel="prefetch" href="/assets/js/15.ad31c2ab.js"><link rel="prefetch" href="/assets/js/16.433ca575.js"><link rel="prefetch" href="/assets/js/17.f759f2c4.js"><link rel="prefetch" href="/assets/js/18.409f3563.js"><link rel="prefetch" href="/assets/js/19.3c6214be.js"><link rel="prefetch" href="/assets/js/2.3a8f22f8.js"><link rel="prefetch" href="/assets/js/20.29c23ec1.js"><link rel="prefetch" href="/assets/js/21.ef092196.js"><link rel="prefetch" href="/assets/js/22.f4895fcc.js"><link rel="prefetch" href="/assets/js/23.bebc661b.js"><link rel="prefetch" href="/assets/js/24.8479ab59.js"><link rel="prefetch" href="/assets/js/25.e7b04c4e.js"><link rel="prefetch" href="/assets/js/26.6222bc50.js"><link rel="prefetch" href="/assets/js/27.0959f68c.js"><link rel="prefetch" href="/assets/js/28.6b89f49a.js"><link rel="prefetch" href="/assets/js/29.4cc02ccd.js"><link rel="prefetch" href="/assets/js/3.ad34650d.js"><link rel="prefetch" href="/assets/js/30.a25d920d.js"><link rel="prefetch" href="/assets/js/31.6a17a250.js"><link rel="prefetch" href="/assets/js/32.d9b45d00.js"><link rel="prefetch" href="/assets/js/33.662c1ae1.js"><link rel="prefetch" href="/assets/js/34.9557b653.js"><link rel="prefetch" href="/assets/js/35.b2490f2d.js"><link rel="prefetch" href="/assets/js/36.228a6ade.js"><link rel="prefetch" href="/assets/js/37.5e8266f2.js"><link rel="prefetch" href="/assets/js/38.5ac403b0.js"><link rel="prefetch" href="/assets/js/39.3b7fbe87.js"><link rel="prefetch" href="/assets/js/40.2e05deba.js"><link rel="prefetch" href="/assets/js/41.4cd75469.js"><link rel="prefetch" href="/assets/js/43.4e9fbd48.js"><link rel="prefetch" href="/assets/js/44.2a2a8c61.js"><link rel="prefetch" href="/assets/js/45.96ec8135.js"><link rel="prefetch" href="/assets/js/46.460e4022.js"><link rel="prefetch" href="/assets/js/47.64c86730.js"><link rel="prefetch" href="/assets/js/48.ca0d6a08.js"><link rel="prefetch" href="/assets/js/49.734f949c.js"><link rel="prefetch" href="/assets/js/50.c566f9c4.js"><link rel="prefetch" href="/assets/js/51.3153113e.js"><link rel="prefetch" href="/assets/js/52.e75991d0.js"><link rel="prefetch" href="/assets/js/53.c7855899.js"><link rel="prefetch" href="/assets/js/54.22b7e8e6.js"><link rel="prefetch" href="/assets/js/55.43fd55ae.js"><link rel="prefetch" href="/assets/js/56.b336b28a.js"><link rel="prefetch" href="/assets/js/57.3e1914c0.js"><link rel="prefetch" href="/assets/js/58.36d9a8a4.js"><link rel="prefetch" href="/assets/js/59.1d484f33.js"><link rel="prefetch" href="/assets/js/6.e38cb69a.js"><link rel="prefetch" href="/assets/js/7.5ec96ca4.js"><link rel="prefetch" href="/assets/js/9.aafa541c.js"><link rel="prefetch" href="/assets/js/vendors~flowchart.bd24a23c.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.24550345.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-1289951e><section class="banner" style="background:#eee url(/assets/img/4.2011bb84.jpg) center center / cover no-repeat;height:100vh;opacity:0;" data-v-1289951e></section> <div data-v-1289951e><section style="z-index:999999;position:absolute;left:0;top:0;width:100%;height:100%;background:#d5eaed;overflow:hidden;" data-v-1289951e data-v-1289951e><div class="loader" data-v-1289951e></div> <nav class="reload_btn" data-v-1289951e>- 重新加载 -</nav></section> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-86905bd4 data-v-1289951e data-v-1289951e><h3 class="title" data-v-86905bd4 data-v-86905bd4>Kora</h3> <p class="description" data-v-86905bd4 data-v-86905bd4>路遙知馬力，日久見人心</p> <label id="box" class="inputBox" data-v-86905bd4 data-v-86905bd4><input type="password" value="" data-v-86905bd4> <span data-v-86905bd4>Konck! Knock!</span> <button data-v-86905bd4>OK</button></label> <div class="footer" data-v-86905bd4 data-v-86905bd4><span data-v-86905bd4><i class="iconfont reco-theme" data-v-86905bd4></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-86905bd4>vuePress-theme-reco</a></span> <span data-v-86905bd4><i class="iconfont reco-copyright" data-v-86905bd4></i> <a href="javascript:void(0)" data-v-86905bd4><span data-v-86905bd4>Kora</span>
+                      
+                    <!---->
+                    2022
+                </a></span></div></div> <div class="hide" data-v-1289951e><header class="navbar" data-v-1289951e><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><span class="site-name">Kora</span></a> <div class="links"><div class="color-picker"><a href="javascript:void(0)" class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><section data-v-22fc7934><div class="mode-options" data-v-22fc7934><h4 class="title" data-v-22fc7934>光线模式</h4> <ul class="color-mode-options" data-v-22fc7934><li class="dark" data-v-22fc7934>黑暗</li><li class="auto active" data-v-22fc7934>自动</li><li class="light" data-v-22fc7934>阳光</li></ul></div></section></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><main data-v-4d92aa40><a href="http://koras.gitee.io/korains_resume" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-4d92aa40><i class="fa fa-solid fa-street-view" data-v-4d92aa40></i>
+        个人简历
+        </a></main></div><div class="nav-item"><main data-v-4d92aa40><a href="/tag/" class="nav-link" data-v-4d92aa40><i class="iconfont reco-tag" data-v-4d92aa40></i>
+        标签
+    </a></main></div><div class="nav-item"><main data-v-4d92aa40><a href="/timeline/" class="nav-link" data-v-4d92aa40><i class="iconfont reco-date" data-v-4d92aa40></i>
+        时间轴
+    </a></main></div><div class="nav-item"><main data-v-4d92aa40><a href="/valine/" class="nav-link" data-v-4d92aa40><i class="iconfont reco-suggestion" data-v-4d92aa40></i>
+        留言板
+    </a></main></div><div class="nav-item"><div class="dropdown-wrapper" data-v-11f33440><a href="javascript:void(0)" class="dropdown-title" data-v-11f33440><span class="title" data-v-11f33440><i class="fa fa-briefcase" data-v-11f33440></i>
+            百宝箱
+        </span> <span class="arrow right" data-v-11f33440></span></a> <ul class="nav-dropdown" style="display:none;" data-v-11f33440 data-v-11f33440><li class="dropdown-item" data-v-11f33440><!----> <main data-v-4d92aa40 data-v-11f33440><a href="http://test.hhxinfo.com/drag/#/" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-4d92aa40><i class="fa fa-spa" data-v-4d92aa40></i>
+        在线拖拽
+        </a></main></li><li class="dropdown-item" data-v-11f33440><!----> <main data-v-4d92aa40 data-v-11f33440><a href="https://www.juhe.cn/" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-4d92aa40><i class="iconfont reco-api" data-v-4d92aa40></i>
+        开源Api
+        </a></main></li><li class="dropdown-item" data-v-11f33440><!----> <main data-v-4d92aa40 data-v-11f33440><a href="http://coolaf.com/tool/md" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-4d92aa40><i class="iconfont reco-document" data-v-4d92aa40></i>
+        文件转换
+        </a></main></li><li class="dropdown-item" data-v-11f33440><!----> <main data-v-4d92aa40 data-v-11f33440><a href="http://markdown.liangtengyu.com:9999/#/" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-4d92aa40><i class="iconfont reco-zhihu" data-v-4d92aa40></i>
+        知乎转换
+        </a></main></li><li class="dropdown-item" data-v-11f33440><!----> <main data-v-4d92aa40 data-v-11f33440><a href="http://fonts.safe.360.cn/" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-4d92aa40><i class="iconfont reco-facebook" data-v-4d92aa40></i>
+        字体检测
+        </a></main></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper" data-v-11f33440><a href="javascript:void(0)" class="dropdown-title" data-v-11f33440><span class="title" data-v-11f33440><i class="iconfont reco-account" data-v-11f33440></i>
+            关于我
+        </span> <span class="arrow right" data-v-11f33440></span></a> <ul class="nav-dropdown" style="display:none;" data-v-11f33440 data-v-11f33440><li class="dropdown-item" data-v-11f33440><!----> <main data-v-4d92aa40 data-v-11f33440><a href="/about/" class="nav-link" data-v-4d92aa40><i class="fa fa-user-circle" data-v-4d92aa40></i>
+        简  介
+    </a></main></li><li class="dropdown-item" data-v-11f33440><!----> <main data-v-4d92aa40 data-v-11f33440><a href="/relation?links=1.html" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-4d92aa40><i class="iconfont reco-wechat" data-v-4d92aa40></i>
+        联系我
+        </a></main></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-1289951e></div> <aside class="sidebar" data-v-1289951e><div class="personal-info-wrapper" data-v-6404dff0 data-v-1289951e><div class="personal-img" data-v-6404dff0><img src="https://pic3.zhimg.com/v2-9c4646674dec74d22c477ed8aa671a80_xl.jpg" alt="author-avatar" data-v-6404dff0></div> <h3 class="name" style="color:;" data-v-6404dff0>
+        Kora
+    </h3> <div class="num" data-v-6404dff0><div data-v-6404dff0><a href="/" class="home-link router-link-active" data-v-6404dff0><h3 style="color:;" data-v-6404dff0>25</h3> <h6 style="color:;" data-v-6404dff0>文章</h6></a></div> <div data-v-6404dff0><a href="/tag" class="home-link" data-v-6404dff0><h3 style="color:;" data-v-6404dff0>27</h3> <h6 style="color:;" data-v-6404dff0>标签</h6></a></div></div> <ul class="social-links" data-v-6404dff0><li class="social-item" data-v-6404dff0><i class="iconfont reco-github" style="color:#000000;" data-v-6404dff0></i></li><li class="social-item" data-v-6404dff0><i class="iconfont reco-npm" style="color:#C61E0B;" data-v-6404dff0></i></li><li class="social-item" data-v-6404dff0><i class="iconfont reco-mayun" style="color:#C81F0D;" data-v-6404dff0></i></li><li class="social-item" data-v-6404dff0><i class="iconfont reco-zhihu" style="color:#1087EB;" data-v-6404dff0></i></li><li class="social-item" data-v-6404dff0><i class="iconfont reco-wechat" style="color:#81C362;" data-v-6404dff0></i></li><li class="social-item" data-v-6404dff0><i class="iconfont reco-huawei" style="color:#d81e06;" data-v-6404dff0></i></li></ul></div> <nav class="nav-links"><div class="nav-item"><main data-v-4d92aa40><a href="http://koras.gitee.io/korains_resume" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-4d92aa40><i class="fa fa-solid fa-street-view" data-v-4d92aa40></i>
+        个人简历
+        </a></main></div><div class="nav-item"><main data-v-4d92aa40><a href="/tag/" class="nav-link" data-v-4d92aa40><i class="iconfont reco-tag" data-v-4d92aa40></i>
+        标签
+    </a></main></div><div class="nav-item"><main data-v-4d92aa40><a href="/timeline/" class="nav-link" data-v-4d92aa40><i class="iconfont reco-date" data-v-4d92aa40></i>
+        时间轴
+    </a></main></div><div class="nav-item"><main data-v-4d92aa40><a href="/valine/" class="nav-link" data-v-4d92aa40><i class="iconfont reco-suggestion" data-v-4d92aa40></i>
+        留言板
+    </a></main></div><div class="nav-item"><div class="dropdown-wrapper" data-v-11f33440><a href="javascript:void(0)" class="dropdown-title" data-v-11f33440><span class="title" data-v-11f33440><i class="fa fa-briefcase" data-v-11f33440></i>
+            百宝箱
+        </span> <span class="arrow right" data-v-11f33440></span></a> <ul class="nav-dropdown" style="display:none;" data-v-11f33440 data-v-11f33440><li class="dropdown-item" data-v-11f33440><!----> <main data-v-4d92aa40 data-v-11f33440><a href="http://test.hhxinfo.com/drag/#/" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-4d92aa40><i class="fa fa-spa" data-v-4d92aa40></i>
+        在线拖拽
+        </a></main></li><li class="dropdown-item" data-v-11f33440><!----> <main data-v-4d92aa40 data-v-11f33440><a href="https://www.juhe.cn/" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-4d92aa40><i class="iconfont reco-api" data-v-4d92aa40></i>
+        开源Api
+        </a></main></li><li class="dropdown-item" data-v-11f33440><!----> <main data-v-4d92aa40 data-v-11f33440><a href="http://coolaf.com/tool/md" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-4d92aa40><i class="iconfont reco-document" data-v-4d92aa40></i>
+        文件转换
+        </a></main></li><li class="dropdown-item" data-v-11f33440><!----> <main data-v-4d92aa40 data-v-11f33440><a href="http://markdown.liangtengyu.com:9999/#/" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-4d92aa40><i class="iconfont reco-zhihu" data-v-4d92aa40></i>
+        知乎转换
+        </a></main></li><li class="dropdown-item" data-v-11f33440><!----> <main data-v-4d92aa40 data-v-11f33440><a href="http://fonts.safe.360.cn/" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-4d92aa40><i class="iconfont reco-facebook" data-v-4d92aa40></i>
+        字体检测
+        </a></main></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper" data-v-11f33440><a href="javascript:void(0)" class="dropdown-title" data-v-11f33440><span class="title" data-v-11f33440><i class="iconfont reco-account" data-v-11f33440></i>
+            关于我
+        </span> <span class="arrow right" data-v-11f33440></span></a> <ul class="nav-dropdown" style="display:none;" data-v-11f33440 data-v-11f33440><li class="dropdown-item" data-v-11f33440><!----> <main data-v-4d92aa40 data-v-11f33440><a href="/about/" class="nav-link" data-v-4d92aa40><i class="fa fa-user-circle" data-v-4d92aa40></i>
+        简  介
+    </a></main></li><li class="dropdown-item" data-v-11f33440><!----> <main data-v-4d92aa40 data-v-11f33440><a href="/relation?links=1.html" target="_blank" rel="noopener noreferrer" class="nav-link external" data-v-4d92aa40><i class="iconfont reco-wechat" data-v-4d92aa40></i>
+        联系我
+        </a></main></li></ul></div></div> <!----></nav> <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>开发规范</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group is-sub-group depth-1"><p class="sidebar-heading open"><span>前端规范</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/font/font1.0.1.html" aria-current="page" class="active sidebar-link">V1.0.1</a></li><li><a href="/guide/font/font1.1.1.html" class="sidebar-link">V1.1.1</a></li></ul></section></li><li><section class="sidebar-group is-sub-group depth-1"><p class="sidebar-heading"><span>后台规范</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/back/back1.0.1.html" class="sidebar-link">V1.0.1</a></li></ul></section></li><li><section class="sidebar-group is-sub-group depth-1"><p class="sidebar-heading"><span>Git规范</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/git/project.html" class="sidebar-link">项目规范</a></li><li><a href="/guide/git/frame.html" class="sidebar-link">框架规范</a></li></ul></section></li><li><section class="sidebar-group is-sub-group depth-1"><p class="sidebar-heading"><span>版本号规范</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/version/version.html" class="sidebar-link">版本规范</a></li></ul></section></li></ul></section></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-86905bd4 data-v-1289951e><h3 class="title" data-v-86905bd4 data-v-86905bd4>开发规范</h3> <!----> <label id="box" class="inputBox" data-v-86905bd4 data-v-86905bd4><input type="password" value="" data-v-86905bd4> <span data-v-86905bd4>Konck! Knock!</span> <button data-v-86905bd4>OK</button></label> <div class="footer" data-v-86905bd4 data-v-86905bd4><span data-v-86905bd4><i class="iconfont reco-theme" data-v-86905bd4></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-86905bd4>vuePress-theme-reco</a></span> <span data-v-86905bd4><i class="iconfont reco-copyright" data-v-86905bd4></i> <a href="javascript:void(0)" data-v-86905bd4><span data-v-86905bd4>Kora</span>
+                      
+                    <!---->
+                    2022
+                </a></span></div></div> <div data-v-1289951e><main class="page"><section><div class="page-title"><h1 class="title">开发规范</h1> <div data-v-678f8e20><i class="iconfont reco-account" data-v-678f8e20><span data-v-678f8e20>Kora</span></i> <i class="iconfont reco-date" data-v-678f8e20><span data-v-678f8e20>2021-5-28</span></i> <!----> <!----> <i class="tags iconfont reco-tag" data-v-678f8e20><span class="tag-item" data-v-678f8e20>vue</span><span class="tag-item" data-v-678f8e20>规范</span></i> <i class="iconfont reco-eye" data-v-678f8e20><span data-v-678f8e20> true 浏览量</span></i></div></div> <div class="theme-reco-content content__default"><h1 id="前端开发规范-vue1-0-1"><a href="#前端开发规范-vue1-0-1" class="header-anchor">#</a> 前端开发规范(VUE1.0.1)</h1> <blockquote><p>适用人群：了解基础 W3C 规则，了 解基础 VUE 规则</p></blockquote> <h2 id="_1-1-规范目的"><a href="#_1-1-规范目的" class="header-anchor">#</a> 1.1 规范目的</h2> <blockquote><p>以此规范提升团队协作效率，便于功能维护及版本迭代，输出高质量的项目源码</p></blockquote> <h2 id="_1-2-命名规范"><a href="#_1-2-命名规范" class="header-anchor">#</a> 1.2 命名规范</h2> <blockquote><p>统一命名规则，语义化管理提升代码可读性，规范性声明便于代码实质理解</p></blockquote> <h3 id="_1-2-1-变量命名规范"><a href="#_1-2-1-变量命名规范" class="header-anchor">#</a> 1.2.1 变量命名规范</h3> <div class="language- extra-class"><pre><code>① 命名方法 ：驼峰命名法
+② 命名规范 ：
+	Ⅰ. 命名必须贴合实际场景，如申明一个变量`银行卡`那么可以这样定义 var bankCard = &quot;银行卡&quot;;
+	Ⅱ. 命名复数需加 Arr，如申明一个数组`银行卡列表`，那么可以这样定义 var bankCardListArr = Array.fill({key: '银行卡1'}, {...});
+</code></pre></div><h3 id="_1-2-2-常量命名规范"><a href="#_1-2-2-常量命名规范" class="header-anchor">#</a> 1.2.2 常量命名规范</h3> <div class="language- extra-class"><pre><code>① 命名方法 : 全部大写
+② 命名规范 :
+	Ⅰ.使用大写字母和下划线组合命名（下划线用以分割单词）
+	 const MAX_COUNT = 10
+	 const ENV = 'product'
+	 const URL = 'https://www.baidu.com/'
+</code></pre></div><h3 id="_1-2-3-组件命名规范"><a href="#_1-2-3-组件命名规范" class="header-anchor">#</a> 1.2.3 组件命名规范</h3> <div class="language- extra-class"><pre><code>① 命名方法：指定标准
+② 命名规范：
+	Ⅰ. 路由组件声明：首字母大写命名，如Home（首页）、Login（登录页）
+	Ⅱ. 子组件声明：驼峰命名，如cardListItem（卡列表子组件）、payControl（支付子组件）
+	Ⅲ. 子组件引用：分隔符命名，如v-pay-control（自定义支付子组件）、van-loading（vantUI引用子组件，引用第三方UI库）
+	Ⅳ. 通用声明(需国际通用且无歧义)：简写命名，如BOCShop（中国银行商户）
+</code></pre></div><h3 id="_1-2-4-methods-方法命名命名规范"><a href="#_1-2-4-methods-方法命名命名规范" class="header-anchor">#</a> 1.2.4 methods 方法命名命名规范</h3> <div class="language- extra-class"><pre><code>① 命名方法：驼峰式 | 语义化
+② 命名规范：
+	Ⅰ. 事件声明：
+		handleClickBack（手动点击回退）
+		handleInputTel（手动输入电话）
+		handleChangeDate（手动变更日期）
+		handleChoiceSex（手动选择性别）...
+	Ⅱ. 接口声明：
+		portGetBankCardList（获取银行卡列表）
+		portSubmitBuyAppeal（提交购买申请）
+		portSetUserInfo（设置用户信息）...
+	Ⅲ. 父子组件传值声明：
+		emitChangeAge（父子传值变更年龄字段）
+		emitChangeFormState（父子传值变更表单状态）...
+</code></pre></div><h3 id="_1-2-5-表单封装方法命名规范"><a href="#_1-2-5-表单封装方法命名规范" class="header-anchor">#</a> 1.2.5 表单封装方法命名规范</h3> <div class="language- extra-class"><pre><code>1. 数据处理：Deal结尾
+2. 数据正则判断：Judge结尾
+3. 数据表单输入强制限制：Limit结尾
+示例如下：
+</code></pre></div><div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// 1. 数据截取</span>
+<span class="token keyword">function</span> <span class="token function">cutDeal</span><span class="token punctuation">(</span><span class="token parameter">key<span class="token punctuation">,</span> flag</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> key<span class="token punctuation">.</span><span class="token function">substring</span><span class="token punctuation">(</span>key<span class="token punctuation">.</span>length<span class="token punctuation">,</span> key<span class="token punctuation">.</span>length <span class="token operator">-</span> <span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">// 2. 手机格式判断</span>
+<span class="token keyword">function</span> <span class="token function">telJudge</span><span class="token punctuation">(</span><span class="token parameter">key</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">var</span> reg <span class="token operator">=</span> <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">^[1][3,4,5,6,7,8,9][0-9]{9}$</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> reg<span class="token punctuation">.</span><span class="token function">test</span><span class="token punctuation">(</span>key<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">// 3. 纯数字输入限制</span>
+<span class="token keyword">function</span> <span class="token function">numberLimit</span><span class="token punctuation">(</span><span class="token parameter">key</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> key<span class="token punctuation">.</span><span class="token function">replace</span><span class="token punctuation">(</span><span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">[^0-9]</span><span class="token regex-delimiter">/</span><span class="token regex-flags">g</span></span><span class="token punctuation">,</span> <span class="token string">''</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="_1-3-代码书写规范"><a href="#_1-3-代码书写规范" class="header-anchor">#</a> 1.3 代码书写规范</h2> <blockquote><p>规范代码结构提升代码功能查找速度，提升代码阅读质量</p></blockquote> <h3 id="_1-3-1-页面组件-父、子-规范"><a href="#_1-3-1-页面组件-父、子-规范" class="header-anchor">#</a> 1.3.1 页面组件（父、子）规范</h3> <h4 id="_1-3-1-1-路由页面基础结构"><a href="#_1-3-1-1-路由页面基础结构" class="header-anchor">#</a> 1.3.1.1 路由页面基础结构</h4> <div class="language-HTML extra-class"><pre class="language-html"><code>    	// h5
+    	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+    		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+    	// js
+    	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+    	<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+    		components <span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+    		<span class="token function">data</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    			<span class="token keyword">return</span> <span class="token punctuation">{</span> <span class="token punctuation">}</span>
+    		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+    		props<span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+    		<span class="token function">beforeRouteEnter</span><span class="token punctuation">(</span><span class="token parameter">to<span class="token punctuation">,</span> <span class="token keyword">from</span><span class="token punctuation">,</span> next</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    			<span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+    		<span class="token function">mounted</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+    		methods<span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+    		<span class="token function">beforeRouteLeave</span><span class="token punctuation">(</span><span class="token parameter">to<span class="token punctuation">,</span> <span class="token keyword">from</span></span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    	<span class="token punctuation">}</span>
+    	</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+    	// css
+    	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>scss<span class="token punctuation">&quot;</span></span> <span class="token attr-name">scoped</span><span class="token punctuation">&gt;</span></span><span class="token style"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h4 id="_1-3-1-2-页面书写顺序-必须按如上顺序-从左往右、从上到下"><a href="#_1-3-1-2-页面书写顺序-必须按如上顺序-从左往右、从上到下" class="header-anchor">#</a> 1.3.1.2 页面书写顺序（必须按如上顺序，从左往右、从上到下）</h4> <h4 id="_1-3-1-3-事件书写顺序"><a href="#_1-3-1-3-事件书写顺序" class="header-anchor">#</a> 1.3.1.3 事件书写顺序</h4> <p>主动触发事件方法 -&gt; 父子传值事件方法 -&gt; 接口调用方法
+如下</p> <div class="language-js extra-class"><pre class="language-js"><code>	methods<span class="token operator">:</span> <span class="token punctuation">{</span>
+		<span class="token function">handleClickBack</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token function">emitChangeAge</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token function">portGetBankCardList</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+	<span class="token punctuation">}</span>
+</code></pre></div><h4 id="_1-3-1-4-props-定义规范"><a href="#_1-3-1-4-props-定义规范" class="header-anchor">#</a> 1.3.1.4 props 定义规范</h4> <div class="language-js extra-class"><pre class="language-js"><code>    props<span class="token operator">:</span> <span class="token punctuation">{</span>
+    	status<span class="token operator">:</span> <span class="token punctuation">{</span>
+    		type<span class="token operator">:</span> String<span class="token punctuation">,</span>
+    		required<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    			<span class="token function-variable function">default</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    			<span class="token keyword">return</span> <span class="token punctuation">{</span> message<span class="token operator">:</span> <span class="token string">'hello'</span> <span class="token punctuation">}</span>
+    		<span class="token punctuation">}</span>
+    		<span class="token function-variable function">validator</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">value</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    			<span class="token keyword">return</span> <span class="token punctuation">[</span>
+    				<span class="token string">'syncing'</span><span class="token punctuation">,</span>
+    				<span class="token string">'synced'</span><span class="token punctuation">,</span>
+    				<span class="token string">'version-conflict'</span><span class="token punctuation">,</span>
+    				<span class="token string">'error'</span>
+    			<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span>value<span class="token punctuation">)</span> <span class="token operator">!==</span> <span class="token operator">-</span><span class="token number">1</span>
+    		<span class="token punctuation">}</span>
+    	<span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+</code></pre></div><h4 id="_1-3-1-5-方法耦合分离-尽量避免方法内部回调造成回调深渊"><a href="#_1-3-1-5-方法耦合分离-尽量避免方法内部回调造成回调深渊" class="header-anchor">#</a> 1.3.1.5 方法耦合分离：尽量避免方法内部回调造成回调深渊</h4> <h4 id="_1-3-1-6-样式书写规则"><a href="#_1-3-1-6-样式书写规则" class="header-anchor">#</a> 1.3.1.6 样式书写规则</h4> <div class="language- extra-class"><pre><code>Ⅰ. [scss](https://www.sass.hk/)/[less](http://lesscss.cn/)规范
+Ⅱ. 必须使用基础样式嵌套规则
+Ⅲ. 公用具备样式封装思路（如弹性盒、1px边框等，可参照/src/assets/styles）
+Ⅳ. 必须使用scoped强制限制作用域
+Ⅴ. 最新版VUE基础项目封装集成px转rem，可直接使用px进行页面搭建
+</code></pre></div><h3 id="_1-3-2-封装接口规范"><a href="#_1-3-2-封装接口规范" class="header-anchor">#</a> 1.3.2 封装接口规范</h3> <div class="language- extra-class"><pre><code>1. 必须使用Promise对象，使用resolve、reject进行抛出
+</code></pre></div><h2 id="_1-4-项目全局规范"><a href="#_1-4-项目全局规范" class="header-anchor">#</a> 1.4 项目全局规范</h2> <blockquote><p>全局规范提升项目可维护性，降低迭代成本，降低项目运行冲突风险</p></blockquote> <h3 id="_1-4-1-缓存问题"><a href="#_1-4-1-缓存问题" class="header-anchor">#</a> 1.4.1 缓存问题</h3> <div class="language- extra-class"><pre><code>1. 小项目，可直接使用缓存
+2. 大型项目，必须结合vuex和storage进行前台数据存储
+3. 离开项目或再次进入项目，必须清除前台所有缓存（需结合项目场景）
+4. 缓存命名，必须使用本项目标识（如统一用户需存储，sso_userName：统一用户_用户姓名）
+</code></pre></div><h3 id="_1-4-2-路由问题"><a href="#_1-4-2-路由问题" class="header-anchor">#</a> 1.4.2 路由问题</h3> <div class="language- extra-class"><pre><code>1. 可复用页面必须使用嵌套路由，实现路由解耦（复用页面需拆解成公用组件）
+ 如下：
+</code></pre></div><div class="language-js extra-class"><pre class="language-js"><code>	<span class="token comment">// router.js - 路由</span>
+	<span class="token punctuation">{</span> path<span class="token operator">:</span> <span class="token string">'/'</span><span class="token punctuation">,</span> name<span class="token operator">:</span> <span class="token string">'home'</span><span class="token punctuation">,</span> component<span class="token operator">:</span> home<span class="token punctuation">,</span>
+		children<span class="token operator">:</span> <span class="token punctuation">[</span>
+		<span class="token punctuation">{</span>path<span class="token operator">:</span> <span class="token string">'/bindCard'</span><span class="token punctuation">,</span> name<span class="token operator">:</span> <span class="token string">'bindCard'</span><span class="token punctuation">,</span> component<span class="token operator">:</span> bindCard<span class="token punctuation">,</span> meta<span class="token operator">:</span> <span class="token punctuation">{</span>name<span class="token operator">:</span> <span class="token string">'绑卡页'</span><span class="token punctuation">,</span> keepAlive<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+		<span class="token punctuation">{</span>path<span class="token operator">:</span> <span class="token string">'/appealBindCard'</span><span class="token punctuation">,</span> name<span class="token operator">:</span> <span class="token string">'appealBindCard'</span><span class="token punctuation">,</span> component<span class="token operator">:</span> appealBindCard<span class="token punctuation">,</span> meta<span class="token operator">:</span> <span class="token punctuation">{</span> name<span class="token operator">:</span> <span class="token string">'申诉绑卡页'</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token punctuation">]</span>
+
+	<span class="token comment">// 父组件</span>
+	<span class="token operator">&lt;</span>template<span class="token operator">&gt;</span>
+		<span class="token operator">&lt;</span>div <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">&quot;nav&quot;</span><span class="token operator">&gt;</span>
+			<span class="token operator">&lt;</span>keep<span class="token operator">-</span>alive<span class="token operator">&gt;</span>
+				<span class="token operator">&lt;</span>router<span class="token operator">-</span>view v<span class="token operator">-</span><span class="token keyword">if</span><span class="token operator">=</span><span class="token string">&quot;$route.meta.keepAlive&quot;</span> <span class="token operator">:</span>key<span class="token operator">=</span><span class="token string">&quot;activeDate&quot;</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>router<span class="token operator">-</span>view<span class="token operator">&gt;</span>
+			<span class="token operator">&lt;</span><span class="token operator">/</span>keep<span class="token operator">-</span>alive<span class="token operator">&gt;</span>
+			<span class="token operator">&lt;</span>router<span class="token operator">-</span>view v<span class="token operator">-</span><span class="token keyword">if</span><span class="token operator">=</span><span class="token string">&quot;!$route.meta.keepAlive&quot;</span> <span class="token operator">:</span>key<span class="token operator">=</span><span class="token string">&quot;activeDate&quot;</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>router<span class="token operator">-</span>view<span class="token operator">&gt;</span>
+		<span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+	<span class="token operator">&lt;</span><span class="token operator">/</span>template<span class="token operator">&gt;</span>
+</code></pre></div><h3 id="_1-4-3-组件问题"><a href="#_1-4-3-组件问题" class="header-anchor">#</a> 1.4.3 组件问题</h3> <div class="language- extra-class"><pre><code>1. 必须进行组件拆分，可根据项目复杂度和页面复杂度进行合理拆解
+</code></pre></div><h2 id="_1-5-注释规范"><a href="#_1-5-注释规范" class="header-anchor">#</a> 1.5 注释规范</h2> <blockquote><p>规范注释可避免打包失败与提升代码可读性</p></blockquote> <h3 id="_1-5-1-单行注释"><a href="#_1-5-1-单行注释" class="header-anchor">#</a> 1.5.1 单行注释</h3> <div class="language- extra-class"><pre><code>1. 如下
+</code></pre></div><div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// 用户姓名</span>
+<span class="token keyword">var</span> userName <span class="token operator">=</span> <span class="token string">'kora'</span><span class="token punctuation">;</span>
+</code></pre></div><h3 id="_1-5-2-多行注释-常用于方法封装"><a href="#_1-5-2-多行注释-常用于方法封装" class="header-anchor">#</a> 1.5.2 多行注释（常用于方法封装）</h3> <div class="language- extra-class"><pre><code>1. 如下
+</code></pre></div><div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">/**
+	_ 组件名称
+	_ @module 组件存放位置
+	_ @desc 组件描述
+	_ @author 组件作者
+	_ @date 2017 年 12 月 05 日 17:22:43
+	_ @param {Object} [title] - 参数说明
+	_ @param {String} [columns] - 参数说明
+	_ @example 调用示例 \* &lt;hbTable :title=&quot;title&quot; :columns=&quot;columns&quot; :tableData=&quot;tableData&quot;&gt;&lt;/hbTable&gt;
+**/</span>
+</code></pre></div><h2 id="_1-6-项目目录解析"><a href="#_1-6-项目目录解析" class="header-anchor">#</a> 1.6 项目目录解析</h2> <p>┌─public 静态目录（其资源会复制到打包输出文件根目录中[dist]）
+│ └─security ns-国密封装控件
+│ └─svg ns-国密控件 svg 资源
+│ └─index.html public 静态资源引入（ejs 模板引入，<a href="https://cli.vuejs.org/zh/guide/html-and-static-assets.html#%E6%8F%92%E5%80%BC" target="_blank" rel="noopener noreferrer">官网<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>）
+├─src<br>
+│ └─assets 静态资源，如图片、 样式、字体等
+│ └─components 组件拆分子组件
+| │ └─common 公用组件
+| │ └─head.vue 公用子组件（公用头部）<br>
+│ ├─router 路由
+│ │ └─index.js 路由配置
+│ │ └─router.config.js 路由守卫
+│ ├─store 全局数据
+│ │ └─modules 全局数据模块
+│ │ │ └─userInfo.js vuex 用户数据(区域地图)
+│ │ └─index.js vuex 数据整合(世界地图)
+│ ├─views 父组件（路由页面）
+│ ├─App.vue 页面入口文件
+│ ├─main.js 主入口文件
+├─env.dev 本地环境配置<br>
+├─env.prod 线上生产环境配置<br>
+├─env.test 线上测试环境配置<br>
+├─.gitgnore 禁止提交至 git 配置
+├─babel.config.js https://cli.vuejs.org/zh/config/#pluginoptions
+├─package/package.lock.json npm 包环境配置文件<br>
+└─vue.config.js webpack 辅助配置文件</p></div></section> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/guide/font/font1.1.1.html">
+                        V1.1.1
+                    </a></span></p></div> <div class="comments-wrapper"><!----></div> <ul class="side-bar sub-sidebar-wrapper" style="width:12rem;" data-v-00604339><li class="level-2" data-v-00604339><a href="/guide/font/font1.0.1.html#_1-1-规范目的" class="sidebar-link reco-side-_1-1-规范目的" data-v-00604339>1.1 规范目的</a></li><li class="level-2" data-v-00604339><a href="/guide/font/font1.0.1.html#_1-2-命名规范" class="sidebar-link reco-side-_1-2-命名规范" data-v-00604339>1.2 命名规范</a></li><li class="level-3" data-v-00604339><a href="/guide/font/font1.0.1.html#_1-2-1-变量命名规范" class="sidebar-link reco-side-_1-2-1-变量命名规范" data-v-00604339>1.2.1 变量命名规范</a></li><li class="level-3" data-v-00604339><a href="/guide/font/font1.0.1.html#_1-2-2-常量命名规范" class="sidebar-link reco-side-_1-2-2-常量命名规范" data-v-00604339>1.2.2 常量命名规范</a></li><li class="level-3" data-v-00604339><a href="/guide/font/font1.0.1.html#_1-2-3-组件命名规范" class="sidebar-link reco-side-_1-2-3-组件命名规范" data-v-00604339>1.2.3 组件命名规范</a></li><li class="level-3" data-v-00604339><a href="/guide/font/font1.0.1.html#_1-2-4-methods-方法命名命名规范" class="sidebar-link reco-side-_1-2-4-methods-方法命名命名规范" data-v-00604339>1.2.4 methods 方法命名命名规范</a></li><li class="level-3" data-v-00604339><a href="/guide/font/font1.0.1.html#_1-2-5-表单封装方法命名规范" class="sidebar-link reco-side-_1-2-5-表单封装方法命名规范" data-v-00604339>1.2.5 表单封装方法命名规范</a></li><li class="level-2" data-v-00604339><a href="/guide/font/font1.0.1.html#_1-3-代码书写规范" class="sidebar-link reco-side-_1-3-代码书写规范" data-v-00604339>1.3 代码书写规范</a></li><li class="level-3" data-v-00604339><a href="/guide/font/font1.0.1.html#_1-3-1-页面组件-父、子-规范" class="sidebar-link reco-side-_1-3-1-页面组件-父、子-规范" data-v-00604339>1.3.1 页面组件（父、子）规范</a></li><li class="level-3" data-v-00604339><a href="/guide/font/font1.0.1.html#_1-3-2-封装接口规范" class="sidebar-link reco-side-_1-3-2-封装接口规范" data-v-00604339>1.3.2 封装接口规范</a></li><li class="level-2" data-v-00604339><a href="/guide/font/font1.0.1.html#_1-4-项目全局规范" class="sidebar-link reco-side-_1-4-项目全局规范" data-v-00604339>1.4 项目全局规范</a></li><li class="level-3" data-v-00604339><a href="/guide/font/font1.0.1.html#_1-4-1-缓存问题" class="sidebar-link reco-side-_1-4-1-缓存问题" data-v-00604339>1.4.1 缓存问题</a></li><li class="level-3" data-v-00604339><a href="/guide/font/font1.0.1.html#_1-4-2-路由问题" class="sidebar-link reco-side-_1-4-2-路由问题" data-v-00604339>1.4.2 路由问题</a></li><li class="level-3" data-v-00604339><a href="/guide/font/font1.0.1.html#_1-4-3-组件问题" class="sidebar-link reco-side-_1-4-3-组件问题" data-v-00604339>1.4.3 组件问题</a></li><li class="level-2" data-v-00604339><a href="/guide/font/font1.0.1.html#_1-5-注释规范" class="sidebar-link reco-side-_1-5-注释规范" data-v-00604339>1.5 注释规范</a></li><li class="level-3" data-v-00604339><a href="/guide/font/font1.0.1.html#_1-5-1-单行注释" class="sidebar-link reco-side-_1-5-1-单行注释" data-v-00604339>1.5.1 单行注释</a></li><li class="level-3" data-v-00604339><a href="/guide/font/font1.0.1.html#_1-5-2-多行注释-常用于方法封装" class="sidebar-link reco-side-_1-5-2-多行注释-常用于方法封装" data-v-00604339>1.5.2 多行注释（常用于方法封装）</a></li><li class="level-2" data-v-00604339><a href="/guide/font/font1.0.1.html#_1-6-项目目录解析" class="sidebar-link reco-side-_1-6-项目目录解析" data-v-00604339>1.6 项目目录解析</a></li></ul></main> <!----></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div><APlayer audio="" fixed="true" mini="true" autoplay="autoplay" theme="#f9bcdd" loop="loop" order="random" preload="auto" volume="0.1" mutex="true" lrc-type="0" list-folded="true" list-max-height="250" storage-name="vuepress-plugin-meting" id="aplayer-fixed"></APlayer><div class="kanbanniang" data-v-5775ee02><div class="banniang-container" style="display:;" data-v-5775ee02><div class="messageBox" style="right:68px;bottom:190px;display:none;" data-v-5775ee02>
+      欢迎来到 Kora
+    </div> <div class="operation" style="right:90px;bottom:40px;display:;" data-v-5775ee02><i class="kbnfont kbn-ban-home ban-home" data-v-5775ee02></i> <i class="kbnfont kbn-ban-message message" data-v-5775ee02></i> <i class="kbnfont kbn-ban-close close" data-v-5775ee02></i> <a target="_blank" href="https://vuepress-theme-reco.recoluan.com/views/plugins/kanbanniang.html" data-v-5775ee02><i class="kbnfont kbn-ban-info info" data-v-5775ee02></i></a> <i class="kbnfont kbn-ban-theme skin" style="display:;" data-v-5775ee02></i></div> <canvas id="banniang" width="150" height="220" class="live2d" style="right:30px;bottom:-50px;opacity:1;" data-v-5775ee02></canvas></div> <div class="showBanNiang" style="display:none;" data-v-5775ee02>
+    看板娘
+  </div></div><div></div><div></div></div></div>
+    <script src="/assets/js/app.d186b46e.js" defer></script><script src="/assets/js/8.3dafff39.js" defer></script><script src="/assets/js/1.01fca4c6.js" defer></script><script src="/assets/js/42.ea26f3e3.js" defer></script>
+  </body>
+</html>
